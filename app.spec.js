@@ -9,7 +9,6 @@ describe('the test...', function() {
 
     it('passes', function() {
         proxy.when('GET', 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.jxs').respond(200);
-
         expect(true).toEqual(true);
     });
 });
