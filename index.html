@@ -1,0 +1,12 @@
+<html ng-app='backendProxyTest.core'>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller='Ctrl as model'>
+  <div ng-view>
+    <div>{{model.success}}</div>
+    <div>{{model.data}}</div>
+  </div>
+</body>
+</html>
